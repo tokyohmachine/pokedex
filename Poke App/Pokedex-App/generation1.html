@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation I</title>
+    <!-- Normalize CSs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+</head>
+<body>
+    <section class="content">
+       
+        <h1>P<img src="Web/icons8-pokemon-color-96.png">kédex</h1>
+
+        <h2>Select Generation</h2>
+
+         <div class="number-gen">
+            <button class="gen-button" data-start="1" data-end="151" ><a href="generation1.html">I</a></button>
+            <button class="gen-button" data-start="152" data-end="251" id="gen-two-button"><a href="generation2.html">II</a></button>
+            <button class="gen-button" data-start="252" data-end="386"><a href="generation3.html">III</a></button>
+            <button class="gen-button" data-start="387" data-end="493">IV</button>
+            <button class="gen-button" data-start="494" data-end="649">V</button>
+            <button class="gen-button" data-start="650" data-end="721">VI</button>
+            <button class="gen-button" data-start="722" data-end="809">VII</button>
+            <button class="gen-button" data-start="810" data-end="905">VIII</button>
+            <button class="gen-button" data-start="906" data-end="1010">IX</button>
+        </div> 
+
+        <!-- pokemon list -->
+        <ol id="pokemonList" class="pokemons">
+           
+        </ol>
+
+        <div class="pagination">
+            <button id="loadMore" type="button">Load More</button>
+        </div>
+    </section>
+
+
+
+
+   
+    <script src="/assets/js/pokemonHome/pokeApi.js"></script>
+    <script src="/assets/js/pokemonHome/main.js"></script>
+    
+</body>
+</html>
