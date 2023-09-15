@@ -2,5 +2,5 @@
 
 | Project's name  | Preview |
 | ------------- | ------------- |
-| [Random Machine Quote](https://codepen.io/tokyomachine/pen/GRwBoLQ) |![Random Machine Quote](https://github.com/tokyohmachine/final-frontEnd-projects/blob/main/Random%20Quote%20Machine/Screenshot-Random%20Quote%20Machine.png)
-
+|![Random Machine Quote](https://github.com/tokyohmachine/pokedex/blob/main/assets/Screenshot%202023-09-14%20at%2021-01-26%20Generation%20I.png)|
+|![Random Machine Quote](https://github.com/tokyohmachine/pokedex/blob/main/assets/Screenshot%202023-09-14%20at%2021-02-35%20Generation%20I.png)|
